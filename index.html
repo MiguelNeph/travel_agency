@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Horizon</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lobster&family=Playball&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>New Horizon</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#About">About us</a>
+                    </li>
+                    <li>
+                        <a href="#Book">Book Now</a>
+                    </li>
+                    <li>
+                        <a href="#Policy">Policies</a>
+                    </li>
+                    <li>
+                        <a href="#Destination">Destination</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <h2>TRAVEL AGENCY</h2>
+    </header>   
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+            We are a newborn travel agency with a passion for creating unforgettable journeys, we are dedicated to curating personalized itineraries that cater to your unique travel desires. Our team of experienced travel enthusiasts is committed to providing exceptional service, ensuring your dream vacation becomes a reality. Join us on a remarkable voyage and let us guide you towards extraordinary destinations across the globe.
+            </p>
+        </div>
+    </section>
+    <section id="Book">
+        <div class="container">
+                    <h2>Book now!</h2>
+                    <form>
+                    <input type="text" placeholder="Name" required/><br/>
+                    <input type="email" placeholder="e-mail" required/><br/>
+                    <input type="tel" placeholder="Phone number (not required)"/><br/>
+                    <label>Choose the dates of departure and return:</label><br/>
+                    <input type="date" placeholder="Departure" required/><label>Date of departure</label><br/>
+                    <input type="date" placeholder="Return" required/><label>Date of return</label><br/>
+                    <input type="number" max="99" min="1" step="1" required/> <label>Adults in the trip</label><br/>
+                    <input type="number" max="99" min="0" step="1" required/> <label>Minors in the trip (minors of 18)</label><br/>
+                    <label> Choose your destination!
+                    </label><br/>
+                    <select>
+                        <option> Paris</option>
+                        <option> New York</option>
+                        <option> Amsterdam</option>
+                        <option> Buenos Aires</option>
+                        <option> Tokyo</option>
+                    </select><br/>
+                    <textarea placeholder="Add any suggestion" ></textarea><br/>
+                    <input type="checkbox" id="checkbox-termos" required/><label for="checkbox-termos" > I accept the policies</label>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset all</button>
+            </form>
+        </div>
+    </section>
+    <section id="Policy">
+        <div class="container">
+            <div class="policies">
+                <h2>Our Policies</h2>
+                <p>
+                In the event of trip cancellation, please refer to our policy for details on refund eligibility and any applicable cancellation fees.
+                </p>
+                <p>
+                We highly recommend obtaining travel insurance to protect your investment. It is the responsibility of the traveler to secure adequate coverage for any unforeseen circumstances that may arise during the trip.
+                </p>
+                <a href="a">Learn more about</a>
+            </div>
+        </div>
+    </section>
+    <section id="Destination">
+        <div class="container">
+            <h2>Destinations</h2></br>
+            <ul class="cities-names">
+                <li><label>Paris <i>City of arts</i></label></li>
+                <li><label>New York <i>New You</i></label></li>
+                <li><label>Amsterdam <i>Full of color</i></label></li>
+                <li><label>Buenos Aires <i>Discover it</i></label></li>
+                <li><label>Tokyo <i>Eatern tradition</i></label></li>
+            </ul></br>
+            <ul class="cities">
+                
+                <li><img src="./Media/Paris.jpg" alt="Paris"/></li>
+                <li><img src="./Media/newyork.jpg" alt="NewYork"/></li>
+                <li><img src="./Media/amsterdam.jpg" alt="Amsterdam"/></li>
+                <li><img src="./Media/buenosaires.jpg" alt="BuenosAires"/></li>
+                <li><img src="./Media/tokyo.jpg" alt="Tokyo"/></li>
+            </ul>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>Follow us!</h2>
+            <div>
+                <ul class="social-links">
+                    <li>
+                        <a href="a" title="Follow us on Instagram">
+                            <img src="./Media/instagram.png" alt="Instagram stamp">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="a" title="Follow us on Facebook">
+                            <img src="./Media/facebook.png" alt="Facebook Stamp">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; New Horizon - 2023 - All rights reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

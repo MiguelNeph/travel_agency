@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', cursive;
+    }
+
+header {
+    padding: 18px 0;
+    background-color: rgba(107, 13, 151, 1);
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav {
+    max-width: 1020px;
+    width: 200%;
+    margin-left: 100px;
+    
+}
+header nav li {
+    display: inline;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 35px;
+
+}
+header nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+header .container h1,h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+header .container h1 {
+    font-family: 'Playball', cursive;
+}
+
+header h2 {
+    font-size: 15px;
+    font-family: 'Playball', cursive;
+}
+
+section h2 {
+    font-family: 'Lobster', cursive;
+    color: rgba(107, 13, 151, 1);
+}
+
+section .container{
+    align-items: flex-start;
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 24px 0;
+}
+.cities-names li{
+    display:inline;
+    padding: 33px;
+    
+}
+.cities-names li label, i {
+    font-family: 'Lobster', cursive;
+}
+
+.cities img {
+    height: 300px;
+    display: inline;
+}
+
+.cities li{
+    display: inline;
+}
+.social-links img {
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.policies a{
+    background-color: rgb(107, 13, 151);
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.policies a:hover {
+    text-decoration: underline;
+    background-color: rgb(145, 67, 182);
+}
+
+button{
+    background-color:rgba(107, 13, 151, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 8px;
+    
+}
+
+button:hover {
+    background-color: rgb(145, 67, 182);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(145, 67, 182);
+}
+form input,
+form textarea{
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+
+
+
+
